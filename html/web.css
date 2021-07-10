@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	
+}
+body{
+	background-color: rgba(12, 12, 12, 0.959);
+}
+
+header { 
+	width: 100%;
+	height: auto;
+	background-image: url("https://pro2-bar-s3-cdn-cf.myportfolio.com/5ab7906a-7d8f-4cfe-bb45-98796fe4af7f/189f8caa-d328-48e1-9537-807f9e5253a0_rwc_12x0x1905x1080x4096.png?h=be3472dfee8823445c969306d9e5f335");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: space-evenly;
+}
+nav {
+	font-family: montserrat;
+	display: flex;
+	justify-content: space-evenly;
+	flex: 1;
+}
+nav .logopic {
+	justify-self: flex-start;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: auto;
+}
+nav h1 {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: auto;
+	text-align: center;
+	color: white;}	
+nav h2 span {font-style: oblique;}
+
+nav .navlist {
+	display: flex;
+	list-style: none;
+	font-family: montserrat;
+	font-size: 16px;
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+	flex-wrap: wrap;
+	flex: 1	;
+}
+
+nav ul li {
+	display: flex;
+	flex: 1;
+align-items: center;
+	
+}
+
+nav ul li a {
+	display: inline-flex;
+	flex:1;
+	background-color: rgba(22, 14, 65, 0.836);
+	color: rgb(255, 255, 255);
+	min-width: 120px;
+	justify-content: center;
+	margin: 20px 5px 10px 5px;
+	border: 1px floralwhite solid;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+nav ul li a:hover{
+	color: rgb(0, 0, 0);
+	background-color: rgb(94, 185, 238);
+}
+
+.block1 {display: block;
+
+}	
+
+.mainblock h2{
+	padding: 10px;
+	display: block;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-family: 'montserrat';
+	font-size: 26px;
+	font-weight: 800;
+
+}
+.block1 p {
+	text-align: center;
+	margin: 25px;
+	padding: 30px;
+	background-color: rgba(48, 45, 45, 0.959);
+	border-radius:  40px;
+	color: black;
+	font-size: 16px;
+
+}
+
